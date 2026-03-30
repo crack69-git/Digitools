@@ -1,9 +1,9 @@
-import React, { use, useState } from 'react';
+import React, { useState } from 'react';
 import Products from '../Products/Products';
 import Carts from '../Carts/Carts';
-const ToogleSection = ({ fetchPromise }) => {
-    const data = use(fetchPromise);
+const ToogleSection = ({ fetchPromise, cartData, setCartData }) => {
     const [state, setState] = useState(true);
+    console.log(cartData);
     const handleToggle = () => {
         setState(!state);
     }
@@ -16,10 +16,10 @@ const ToogleSection = ({ fetchPromise }) => {
                 </div>
                 <div className='flex justify-center gap-2'>
                     <button onClick={handleToggle} className={`btn py-6  rounded-3xl ${state ? 'text-white bg-linear-to-r from-blue-500 to-purple-600' : 'bg-white text-black'}`} >Products</button>
-                    <button onClick={handleToggle} className={`btn py-6  rounded-3xl ${!state ? 'text-white bg-linear-to-r from-blue-500 to-purple-600' : 'bg-white text-black'}`} >Carts({data.length})</button>
+                    <button onClick={handleToggle} className={`btn py-6  rounded-3xl ${!state ? 'text-white bg-linear-to-r from-blue-500 to-purple-600' : 'bg-white text-black'}`} >Carts ({cartData.length})</button>
                 </div>
             </div>
-            {state ? <Products fetchPromise={fetchPromise} /> : <Carts fetchPromise={fetchPromise} />}
+            {state ? <Products fetchPromise={fetchPromise} setCartData={setCartData} /> : <Carts fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} />}
         </div>
     );
 };

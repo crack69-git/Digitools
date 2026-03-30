@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+import { Suspense, useState } from 'react';
 import './App.css'
 import HeaderSection from './components/header/HeaderSection';
 import HeroSection from './components/herosection/HeroSection';
@@ -10,16 +10,17 @@ const fetchData = async () => {
   return res.json();
 }
 function App() {
+  const [cartData, setCartData] = useState([]);
   const fetchPromise = fetchData();
   return (
     <>
       <Suspense>
-        <HeaderSection fetchPromise={fetchPromise} />
+        <HeaderSection cartData={cartData} />
       </Suspense>
       <HeroSection />
       <StatusSection />
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-        <ToogleSection fetchPromise={fetchPromise} />
+        <ToogleSection fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} />
       </Suspense>
 
     </>

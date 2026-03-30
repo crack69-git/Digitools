@@ -1,8 +1,7 @@
-import React, { use } from 'react';
+import React from 'react';
 import { ShoppingCart } from 'lucide-react';
 
-const HeaderSection = ({ fetchPromise }) => {
-    const data = use(fetchPromise);
+const HeaderSection = ({ cartData }) => {
     return (
         <div className="navbar bg-base-100 shadow-sm">
             <div className='w-11/12 mx-auto flex justify-between items-center max-sm:flex-col'>
@@ -21,7 +20,7 @@ const HeaderSection = ({ fetchPromise }) => {
                     <div role="button" className="btn btn-ghost btn-circle">
                         <div className="indicator">
                             <ShoppingCart />
-                            <span className="badge badge-sm indicator-item">{data ? data.length : "0"}</span>
+                            <span className={`${cartData.length > 0 ? 'badge badge-sm indicator-item' : 'hidden'}`}>{cartData.length}</span>
                         </div>
                     </div>
                     {/* BUTTON START */}
