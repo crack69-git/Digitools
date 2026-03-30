@@ -7,6 +7,7 @@ import ToogleSection from './components/toogleSection/ToogleSection';
 import GetStarted from './components/GetStarted/GetStarted';
 import Subscription from './components/subscription/Subscription';
 import Explore from './components/Explore/Explore';
+import Footer from './components/footer/Footer';
 const fetchData = async () => {
   const res = await fetch('/data.json');
   return res.json();
@@ -28,6 +29,7 @@ function App() {
       <GetStarted />
       <Subscription />
       <Explore />
+      <Footer />
     </>
   )
 }
