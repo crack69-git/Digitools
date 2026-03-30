@@ -4,7 +4,7 @@ import HeaderSection from './components/header/HeaderSection';
 import HeroSection from './components/herosection/HeroSection';
 import StatusSection from './components/StatusSection/StatusSection';
 import ToogleSection from './components/toogleSection/ToogleSection';
-
+import GetStarted from './components/GetStarted/GetStarted';
 const fetchData = async () => {
   const res = await fetch('/data.json');
   return res.json();
@@ -23,7 +23,7 @@ function App() {
       <Suspense fallback={<div className='flex justify-center mt-5'><span className="loading loading-spinner loading-lg"></span></div>}>
         <ToogleSection fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} total={total} setTotal={setTotal} />
       </Suspense>
-
+      <GetStarted />
     </>
   )
 }
