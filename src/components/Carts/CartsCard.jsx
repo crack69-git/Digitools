@@ -1,7 +1,13 @@
 import React from 'react';
-
+import { toast, Bounce } from 'react-toastify';
 const CartsCard = ({ cart, cartData, setCartData, total, setTotal }) => {
     const handleRemove = (cart) => {
+        toast.error(`${cart.name} is removed from cart!`, {
+            transition: Bounce,
+            autoClose: 1000,
+            position: 'top-center',
+            theme: 'colored'
+        });
         const filteredCart = cartData.filter(c => c.id !== cart.id);
         setCartData(filteredCart);
         setTotal(total - cart.price);

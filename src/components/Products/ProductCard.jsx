@@ -1,8 +1,15 @@
 import React from 'react';
 import { Check } from 'lucide-react';
+import { toast, Bounce } from 'react-toastify';
+// import { BadgeCheck } from 'lucide-react';
 
 const ProductCard = ({ data, setCartData, setTotal }) => {
     const handleAddToCart = (singleData) => {
+        toast.success(`${data.name} is added to cart!`, {
+            transition: Bounce,
+            autoClose: 1000,
+            position: 'top-center'
+        });
         setCartData(prev => [...prev, singleData]);
         setTotal(prev => prev + singleData.price);
     }

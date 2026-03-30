@@ -20,7 +20,7 @@ function App() {
       </Suspense>
       <HeroSection />
       <StatusSection />
-      <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
+      <Suspense fallback={<div className='flex justify-center mt-5'><span className="loading loading-spinner loading-lg"></span></div>}>
         <ToogleSection fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} total={total} setTotal={setTotal} />
       </Suspense>
 

@@ -1,8 +1,13 @@
 import React from 'react';
 import CartsCard from './CartsCard';
+import { toast, Bounce } from 'react-toastify';
 const hasCart = ({ cartData, setCartData, total, setTotal }) => {
     const HandleCheckout = () => {
-        alert('Checkout successful!');
+        toast.success(`Checkout successful!`, {
+            transition: Bounce,
+            autoClose: 1000,
+            position: 'top-center'
+        });
         setCartData([]);
         setTotal(0);
     }
