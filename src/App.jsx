@@ -5,6 +5,8 @@ import HeroSection from './components/herosection/HeroSection';
 import StatusSection from './components/StatusSection/StatusSection';
 import ToogleSection from './components/toogleSection/ToogleSection';
 import GetStarted from './components/GetStarted/GetStarted';
+import Subscription from './components/subscription/Subscription';
+import Explore from './components/Explore/Explore';
 const fetchData = async () => {
   const res = await fetch('/data.json');
   return res.json();
@@ -24,6 +26,8 @@ function App() {
         <ToogleSection fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} total={total} setTotal={setTotal} />
       </Suspense>
       <GetStarted />
+      <Subscription />
+      <Explore />
     </>
   )
 }
