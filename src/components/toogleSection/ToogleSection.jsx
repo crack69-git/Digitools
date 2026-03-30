@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Products from '../Products/Products';
 import Carts from '../Carts/Carts';
-const ToogleSection = ({ fetchPromise, cartData, setCartData }) => {
+const ToogleSection = ({ fetchPromise, cartData, setCartData, total, setTotal }) => {
+    console.log(total);
     const [state, setState] = useState(true);
-    console.log(cartData);
     const handleToggle = () => {
         setState(!state);
     }
@@ -19,7 +19,7 @@ const ToogleSection = ({ fetchPromise, cartData, setCartData }) => {
                     <button onClick={handleToggle} className={`btn py-6  rounded-3xl ${!state ? 'text-white bg-linear-to-r from-blue-500 to-purple-600' : 'bg-white text-black'}`} >Carts ({cartData.length})</button>
                 </div>
             </div>
-            {state ? <Products fetchPromise={fetchPromise} setCartData={setCartData} /> : <Carts fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} />}
+            {state ? <Products fetchPromise={fetchPromise} setCartData={setCartData} setTotal={setTotal} /> : <Carts cartData={cartData} setCartData={setCartData} total={total} setTotal={setTotal} />}
         </div>
     );
 };

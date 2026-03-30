@@ -11,6 +11,7 @@ const fetchData = async () => {
 }
 function App() {
   const [cartData, setCartData] = useState([]);
+  const [total, setTotal] = useState(0);
   const fetchPromise = fetchData();
   return (
     <>
@@ -20,7 +21,7 @@ function App() {
       <HeroSection />
       <StatusSection />
       <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-        <ToogleSection fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} />
+        <ToogleSection fetchPromise={fetchPromise} cartData={cartData} setCartData={setCartData} total={total} setTotal={setTotal} />
       </Suspense>
 
     </>
