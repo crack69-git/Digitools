@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "name": "Canva",
+        "description": "Create professional resumes with modern templates and AI suggestions.",
+        "price": 9.99,
+        "period": "Monthly",
+        "tag": "Popular",
+        "tagType": "Popular",
+        "features": [
+            "100+ templates",
+            "ATS optimization",
+            "Export to PDF"
+        ],
+        "icon": "https://i.ibb.co.com/fGDcVZ65/canva.png"
+    },
+    {
+        "id": 2,
+        "name": "Wix",
+        "description": "Launch your personal portfolio with ready-made responsive designs.",
+        "price": 29.99,
+        "period": "One-time",
+        "tag": "Best seller",
+        "tagType": "Best seller",
+        "features": [
+            "Responsive layouts",
+            "Custom domains",
+            "SEO optimized"
+        ],
+        "icon": "https://i.ibb.co.com/8DcyJWhR/wix.png"
+    },
+    {
+        "id": 3,
+        "name": "GitHub Copilot",
+        "description": "Boost coding productivity with smart AI code suggestions.",
+        "price": 14.99,
+        "period": "Monthly",
+        "tag": "New",
+        "tagType": "New",
+        "features": [
+            "Auto-complete code",
+            "Bug detection",
+            "Multi-language support"
+        ],
+        "icon": "https://i.ibb.co.com/n81yGdHZ/copilot.png"
+    },
+    {
+        "id": 4,
+        "name": "Google Drive",
+        "description": "Secure cloud storage with high-speed access and backups.",
+        "price": 4.99,
+        "period": "Monthly",
+        "tag": "Popular",
+        "tagType": "Popular",
+        "features": [
+            "1TB storage",
+            "Auto backup",
+            "Secure encryption"
+        ],
+        "icon": "https://i.ibb.co.com/LDf7NFyb/google-drive.png"
+    },
+    {
+        "id": 5,
+        "name": "Udemy",
+        "description": "Access premium tech courses from industry experts.",
+        "price": 99.99,
+        "period": "yearly",
+        "tag": "Best seller",
+        "tagType": "Best seller",
+        "features": [
+            "50+ courses",
+            "Lifetime access",
+            "Certificate included"
+        ],
+        "icon": "https://i.ibb.co.com/LdKFc8yc/udemy.png"
+    },
+    {
+        "id": 6,
+        "name": "Figma",
+        "description": "Design stunning user interfaces with ready UI components.",
+        "price": 19.99,
+        "period": "One-time",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "500+ components",
+            "Figma compatible",
+            "Dark/light themes"
+        ],
+        "icon": "https://i.ibb.co.com/dw251s3p/figma.png"
+    },
+    {
+        "id": 7,
+        "name": "Trello",
+        "description": "Organize tasks and boost productivity with smart tracking.",
+        "price": 6.99,
+        "period": "Monthly",
+        "tag": "Popular",
+        "tagType": "Popular",
+        "features": [
+            "Task scheduling",
+            "Reminders",
+            "Team collaboration"
+        ],
+        "icon": "https://i.ibb.co.com/d0scj8kD/trello.png"
+    },
+    {
+        "id": 8,
+        "name": "Shopify",
+        "description": "Start your online store with essential tools and templates.",
+        "price": 49.99,
+        "period": "One-time",
+        "tag": "Best seller",
+        "tagType": "Best seller",
+        "features": [
+            "Payment integration",
+            "Product management",
+            "Mobile responsive"
+        ],
+        "icon": "https://i.ibb.co.com/SwGZ6K3D/shopify.png"
+    },
+    {
+        "id": 9,
+        "name": "Mailchimp",
+        "description": "Create and manage email campaigns with automation tools.",
+        "price": 12.99,
+        "period": "Monthly",
+        "tag": "new",
+        "tagType": "new",
+        "features": [
+            "Email templates",
+            "Automation workflows",
+            "Analytics dashboard"
+        ],
+        "icon": "https://i.ibb.co.com/39VdxmMD/mailchimp.png"
+    },
+    {
+        "id": 10,
+        "name": "Norton",
+        "description": "Protect your devices with advanced security and threat detection.",
+        "price": 59.99,
+        "period": "yearly",
+        "tag": "Popular",
+        "tagType": "Popular",
+        "features": [
+            "Real-time protection",
+            "Malware removal",
+            "Firewall security"
+        ],
+        "icon": "https://i.ibb.co.com/RGdwncMF/norton.png"
+    }
+]

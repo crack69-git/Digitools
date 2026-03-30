@@ -1,14 +1,13 @@
-import React from 'react';
+import React, { use } from 'react';
 import { ShoppingCart } from 'lucide-react';
 
-const HeaderSection = () => {
+const HeaderSection = ({ fetchPromise }) => {
+    const data = use(fetchPromise);
     return (
-
         <div className="navbar bg-base-100 shadow-sm">
             <div className='w-11/12 mx-auto flex justify-between items-center max-sm:flex-col'>
                 <div>
                     <p className='text-3xl font-extrabold bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent'>DigiTools</p>
-
                 </div>
                 <div className='flex gap-5 max-[900px]:hidden  text-[#101727]'>
                     <a href="">Products</a>
@@ -22,7 +21,7 @@ const HeaderSection = () => {
                     <div role="button" className="btn btn-ghost btn-circle">
                         <div className="indicator">
                             <ShoppingCart />
-                            <span className="badge badge-sm indicator-item">8</span>
+                            <span className="badge badge-sm indicator-item">{data ? data.length : "0"}</span>
                         </div>
                     </div>
                     {/* BUTTON START */}
