@@ -15,7 +15,7 @@ const HeroSection = () => {
                 </div>
             </div>
             <div>
-                <img src={banner} alt="Hero Banner" className='max-md:w-3/4 max-md:h-1/2 gmx-auto' />
+                <img src={banner} alt="Hero Banner" className='max-md:w-3/4 max-md:h-1/2 mx-auto' />
             </div>
         </div>
     );

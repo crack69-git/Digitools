@@ -36,7 +36,7 @@ const Subscription = () => {
 
                             </ul>
                             <div className="mt-6">
-                                <button className="btn btn-primary btn-block">Subscribe</button>
+                                <button className="btn btn-primary btn-block rounded-3xl bg-linear-to-r from-blue-600 to-purple-600 text-white">Subscribe</button>
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ const Subscription = () => {
                                 <p className='flex gap-2'><Check className='w-5' /><span>API access</span></p>
                             </div>
                             <div className="mt-6">
-                                <button className="btn text-purple-800 btn-block">Start Pro Trial</button>
+                                <button className="btn text-purple-800 btn-block rounded-3xl">Start Pro Trial</button>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ const Subscription = () => {
 
                             </ul>
                             <div className="mt-6">
-                                <button className="btn btn-primary btn-block">Contact Sales</button>
+                                <button className="btn btn-primary btn-block rounded-3xl bg-linear-to-r from-blue-600 to-purple-600 text-white">Contact Sales</button>
                             </div>
                         </div>
                     </div>

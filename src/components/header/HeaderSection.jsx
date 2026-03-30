@@ -6,7 +6,7 @@ const HeaderSection = ({ cartData }) => {
         <div className="navbar bg-base-100 shadow-sm">
             <div className='w-11/12 mx-auto flex justify-between items-center max-sm:flex-col'>
                 <div>
-                    <p className='text-3xl font-extrabold bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent'>DigiTools</p>
+                    <p className='text-3xl font-extrabold bg-linear-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent pb-3 max-sm:text-5xl'>DigiTools</p>
                 </div>
                 <div className='flex gap-5 max-[900px]:hidden  text-[#101727]'>
                     <a href="">Products</a>
