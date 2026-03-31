@@ -42,7 +42,7 @@ const Subscription = () => {
                     </div>
                     <div className="card w-full bg-base-100 shadow-sm text-left">
 
-                        <div className="card-body bg-linear-to-r from-blue-600 to-purple-600 text-white relative">
+                        <div className="card-body bg-linear-to-r from-blue-600 to-purple-600 text-white relative rounded-lg">
                             <div className='absolute -top-4 left-1/2 transform -translate-x-1/2'>
                                 <p className='text-yellow-600 bg-yellow-100 p-2 rounded-3xl'>Most Popular</p>
                             </div>

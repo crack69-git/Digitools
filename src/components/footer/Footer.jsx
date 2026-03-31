@@ -28,7 +28,8 @@ const Footer = () => {
                     </div>
                     <div className='flex flex-col gap-2 max-sm:col-span-2'>
                         <a className='text-lg font-semibold'>Resources</a>
-                        <a className='text-gray-100'>Documentation</a>                            <a className='text-gray-100'>Community</a>
+                        <a className='text-gray-100'>Documentation</a>
+                        <a className='text-gray-100'>Community</a>
                         <a className='text-gray-100'>Contact</a>
                     </div>
                     <div className='flex flex-col gap-2 items-center '>
@@ -41,8 +42,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="divider divider-info"></div>
-                <div className='flex justify-between max-sm:flex-col max-sm:text-center'>
+                <div className="h-0.5 mb-4 bg-gray-600"></div>
+                <div className='flex justify-between max-sm:flex-col max-sm:text-center pb-10'>
                     <p>© 2026 Digitools. All rights reserved.</p>
                     <div className='flex gap-4 max-sm:justify-center'>
                         <p>Privacy Policy</p>

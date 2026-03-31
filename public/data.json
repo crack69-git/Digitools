@@ -5,12 +5,13 @@
         "description": "Create professional resumes with modern templates and AI suggestions.",
         "price": 9.99,
         "period": "Monthly",
-        "tag": "Popular",
-        "tagType": "Popular",
+        "tag": "New",
+        "tagType": "New",
         "features": [
             "100+ templates",
             "ATS optimization",
-            "Export to PDF"
+            "Export to PDF",
+            "AI suggestions"
         ],
         "icon": "https://i.ibb.co.com/fGDcVZ65/canva.png"
     },
@@ -25,7 +26,9 @@
         "features": [
             "Responsive layouts",
             "Custom domains",
-            "SEO optimized"
+            "SEO optimized",
+            "E-commerce ready",
+            "24/7 support"
         ],
         "icon": "https://i.ibb.co.com/8DcyJWhR/wix.png"
     },
@@ -35,12 +38,13 @@
         "description": "Boost coding productivity with smart AI code suggestions.",
         "price": 14.99,
         "period": "Monthly",
-        "tag": "New",
-        "tagType": "New",
+        "tag": "Popular",
+        "tagType": "Popular",
         "features": [
             "Auto-complete code",
             "Bug detection",
-            "Multi-language support"
+            "Multi-language support",
+            "Real-time assistance"
         ],
         "icon": "https://i.ibb.co.com/n81yGdHZ/copilot.png"
     },
@@ -55,7 +59,8 @@
         "features": [
             "1TB storage",
             "Auto backup",
-            "Secure encryption"
+            "Secure encryption",
+            "Easy sharing"
         ],
         "icon": "https://i.ibb.co.com/LDf7NFyb/google-drive.png"
     },
@@ -64,13 +69,15 @@
         "name": "Udemy",
         "description": "Access premium tech courses from industry experts.",
         "price": 99.99,
-        "period": "yearly",
+        "period": "Yearly",
         "tag": "Best seller",
         "tagType": "Best seller",
         "features": [
             "50+ courses",
             "Lifetime access",
-            "Certificate included"
+            "Certificate included",
+            "Mobile learning",
+            "Expert instructors"
         ],
         "icon": "https://i.ibb.co.com/LdKFc8yc/udemy.png"
     },
@@ -80,12 +87,13 @@
         "description": "Design stunning user interfaces with ready UI components.",
         "price": 19.99,
         "period": "One-time",
-        "tag": "new",
-        "tagType": "new",
+        "tag": "New",
+        "tagType": "New",
         "features": [
             "500+ components",
             "Figma compatible",
-            "Dark/light themes"
+            "Dark/light themes",
+            "Collaboration tools"
         ],
         "icon": "https://i.ibb.co.com/dw251s3p/figma.png"
     },
@@ -95,12 +103,13 @@
         "description": "Organize tasks and boost productivity with smart tracking.",
         "price": 6.99,
         "period": "Monthly",
-        "tag": "Popular",
-        "tagType": "Popular",
+        "tag": "Best seller",
+        "tagType": "Best seller",
         "features": [
             "Task scheduling",
             "Reminders",
-            "Team collaboration"
+            "Team collaboration",
+            "Power-ups integration"
         ],
         "icon": "https://i.ibb.co.com/d0scj8kD/trello.png"
     },
@@ -110,12 +119,14 @@
         "description": "Start your online store with essential tools and templates.",
         "price": 49.99,
         "period": "One-time",
-        "tag": "Best seller",
-        "tagType": "Best seller",
+        "tag": "Popular",
+        "tagType": "Popular",
         "features": [
             "Payment integration",
             "Product management",
-            "Mobile responsive"
+            "Mobile responsive",
+            "Analytics tools",
+            "Inventory tracking"
         ],
         "icon": "https://i.ibb.co.com/SwGZ6K3D/shopify.png"
     },
@@ -125,12 +136,13 @@
         "description": "Create and manage email campaigns with automation tools.",
         "price": 12.99,
         "period": "Monthly",
-        "tag": "new",
-        "tagType": "new",
+        "tag": "New",
+        "tagType": "New",
         "features": [
             "Email templates",
             "Automation workflows",
-            "Analytics dashboard"
+            "Analytics dashboard",
+            "A/B testing"
         ],
         "icon": "https://i.ibb.co.com/39VdxmMD/mailchimp.png"
     },
@@ -139,13 +151,15 @@
         "name": "Norton",
         "description": "Protect your devices with advanced security and threat detection.",
         "price": 59.99,
-        "period": "yearly",
+        "period": "Yearly",
         "tag": "Popular",
         "tagType": "Popular",
         "features": [
             "Real-time protection",
             "Malware removal",
-            "Firewall security"
+            "Firewall security",
+            "VPN included",
+            "Password manager"
         ],
         "icon": "https://i.ibb.co.com/RGdwncMF/norton.png"
     }
